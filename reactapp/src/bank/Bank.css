@@ -1,0 +1,117 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app h1 {
+    margin: 0 0 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .transaction-form,
+  .transaction-list,
+  .account-summary {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-form h2,
+  .transaction-list h2,
+  .account-summary h2 {
+    margin: 0 0 15px;
+    color: #555;
+  }
+  
+  .transaction-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .transaction-list .type {
+    font-weight: bold;
+  }
+  
+  .deposit {
+    color: green;
+  }
+  
+  .withdrawal {
+    color: red;
+  }
+  
+  .account-summary p {
+    margin: 0;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styles as needed */
+  
